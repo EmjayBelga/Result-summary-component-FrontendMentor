@@ -6,9 +6,6 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 ### Screenshot
 ![result summary solution screenshot](images/result-summary-sc.png)
 
-### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-# Result-summary-component-FrontendMentor
-# Result-summary-component-FrontendMentor
+### Links
+- Live Site URL: (https://result-summary-solution.netlify.app/)https://result-summary-solution.netlify.app/
