@@ -1,0 +1,116 @@
+.summary{
+    background-color: var(--clr-white);
+    box-shadow: 0px 8px 15px var(--clr-light-lavender);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+    width: 19rem;
+    height: 28rem;
+    position: relative;
+    right: 15px;
+}
+
+.summary__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2rem 1.5rem 2rem 2.5rem; 
+}
+.summary__title{
+    color: var(--clr-dark-gray-blue);
+    font-size: 20px;
+}
+.summary__ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    margin-top: 2rem;
+    margin-bottom: 2.2rem;
+}
+.summary__list-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    border-radius: 10px;
+    padding: 0.6rem;
+}
+.summary__list-content img{
+    margin-right: 0.5rem;
+}
+.summary__list{
+    display: inline-flex;
+    align-items: center;
+}
+.summary__list-title{
+    font-weight: 700;
+}
+.summary__list-score{
+    font-weight: 800;
+    color: var(--clr-dark-gray-blue);
+    margin-right: 0.5rem;
+}
+.summary__list-over{
+    color: hsla(224, 30%, 27%, 0.5);
+}
+
+.reaction{
+    color: hsl(0, 100%, 67%);
+    background-color: hsla(0, 100%, 67%, 0.1);
+}
+.memory{
+    color: hsl(39, 100%, 56%);
+    background-color: hsla(39, 100%, 56%, 0.1);
+}
+.verbal{
+    color: hsl(166, 100%, 37%);
+    background-color: hsla(166, 100%, 37%, 0.1);
+}
+.visual{
+    color: hsl(234, 85%, 45%);
+    background-color: hsla(234, 85%, 45%, 0.1);
+}
+
+.summary__btn{
+    color: var(--clr-white);
+    background-color: var(--clr-dark-gray-blue);
+    border: var(--clr-dark-gray-blue);
+    border-radius: 25px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 1rem;
+}
+.summary__btn:hover{
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    transition: 0.3s ease;
+}
+
+
+@media (max-width: 606px){
+    .summary{
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 20px;
+        right: 0;
+        top: -15px;
+    }
+}
+
+@media (max-width: 375px) {
+    .summary{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media (max-width: 300px){
+    .summary__list-content{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .summary__list-content img{
+        margin-right: 0.1rem;
+    }
+    .summary__list{
+        text-align: center;
+    }
+}
