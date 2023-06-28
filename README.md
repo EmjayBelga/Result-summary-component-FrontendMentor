@@ -8,7 +8,6 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-# Result-summary-component-FrontendMentor
-# Result-summary-component-FrontendMentor
+- Solution URL:(https://github.com/EmjayBelga/Result-summary-component-FrontendMentor)
+- Live Site URL: (https://result-summary-solution.netlify.app/)
+
