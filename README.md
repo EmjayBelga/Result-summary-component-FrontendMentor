@@ -8,4 +8,4 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 
 ### Links
-- Live Site URL: (https://result-summary-solution.netlify.app/)https://result-summary-solution.netlify.app/
+- Live Site URL: (https://result-summary-solution.netlify.app/)
